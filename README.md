@@ -32,7 +32,6 @@ Overview
 
 This repository contains a simple static website intended to demonstrate fundamental SEO principles. It’s especially useful for showcasing to employers or clients how you set up a site with on-page and technical SEO in mind.
 
-Live Demo: https://www.yourdomain.com (Replace with your actual deployed URL.)
 Project Structure
 
 your-seo-mvp/
@@ -78,7 +77,7 @@ Installation
 
     Clone this repository (or download the ZIP):
 
-git clone https://github.com/<YOUR_USERNAME>/seo-mvp.git
+git clone https://github.com/<LeeMarshall1113>/seo-mvp.git
 
 Navigate into the project folder:
 
@@ -127,7 +126,7 @@ For a quick, free deployment:
         Go to Settings > Pages in your repo.
 
         Select your main branch and save.
-        Your site will be at https://<USERNAME>.github.io/<REPO_NAME>/.
+        Your site will be at https://<LeeMarshall1113>.github.io/<REPO_NAME>/.
 
     Netlify:
 
