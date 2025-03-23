@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <title>Home | SEO MVP</title>
-  <meta name="description" content="A minimal site demonstrating basic on-page and technical SEO best practices.">
+  <meta name="description" content="A minimal site demonstrating basic on-page and technical SEO best practices, now with a cleaner design." />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
   <!-- Canonical URL -->
@@ -11,7 +11,7 @@
 
   <!-- Open Graph tags -->
   <meta property="og:title" content="SEO MVP" />
-  <meta property="og:description" content="A minimal demonstration of SEO best practices." />
+  <meta property="og:description" content="A minimal demonstration of SEO best practices with a polished look." />
   <meta property="og:image" content="https://www.yourdomain.com/assets/images/seo-preview.jpg" />
   <meta property="og:url" content="https://www.yourdomain.com/index.html" />
 
@@ -33,30 +33,48 @@
   <link rel="stylesheet" href="assets/css/styles.css" />
 </head>
 <body>
-  <header>
-    <h1>SEO MVP</h1>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="blog1.html">Blog</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
+  <header class="site-header">
+    <div class="container">
+      <h1 class="site-title">SEO MVP</h1>
+      <nav class="site-nav">
+        <ul>
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="blog1.html">Blog</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
 
-  <main>
-    <section>
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content container">
       <h2>Welcome to My SEO Showcase</h2>
       <p>
-        This is a minimal demonstration of on-page and technical SEO best practices. 
-        Check out the <a href="blog1.html">blog</a> page to learn more about SEO concepts.
+        This website demonstrates essential on-page and technical SEO best practices –
+        now presented in a cleaner, more modern layout.
+      </p>
+      <a href="blog1.html" class="cta-button">View Blog</a>
+    </div>
+  </section>
+
+  <main class="container">
+    <section class="info-section">
+      <h2>Why SEO Matters</h2>
+      <p>
+        Search Engine Optimization helps your site rank higher, attract more visitors,
+        and increase conversions. Good SEO also improves user experience by focusing
+        on high-quality content, fast load times, and clear navigation.
       </p>
     </section>
   </main>
 
-  <footer>
-    <p>© 2025 Your Name | <a href="sitemap.xml">Sitemap</a></p>
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <p>© 2025 Lee Marshall | <a href="sitemap.xml">Sitemap</a></p>
+    </div>
   </footer>
 </body>
 </html>
+
