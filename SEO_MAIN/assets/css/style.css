@@ -1,0 +1,68 @@
+/* styles.css */
+
+/* Simple reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+  color: #333;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+header, nav, main, footer, section, article {
+  margin-bottom: 1rem;
+}
+
+header h1 {
+  margin-bottom: 0.5rem;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 1rem;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #0066cc;
+}
+
+main h2 {
+  margin-top: 1rem;
+  color: #222;
+}
+
+article h3 {
+  margin-top: 1rem;
+}
+
+footer {
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+form label {
+  font-weight: bold;
+}
+
+form input, form textarea {
+  width: 100%;
+  padding: 0.5rem;
+}
