@@ -1,4 +1,4 @@
-SEO
+SEO_Optimization
 
 A minimal multi-page static website showcasing basic SEO best practices. This project demonstrates:
 
@@ -77,11 +77,11 @@ Installation
 
     Clone this repository (or download the ZIP):
 
-git clone https://github.com/<LeeMarshall1113>/seo-mvp.git
+git clone https://github.com/<LeeMarshall1113>/SEO_Optimization.git
 
 Navigate into the project folder:
 
-cd seo-mvp
+cd SEO_Optimization
 
 (Optional) Serve Locally – If you want to run a quick local server:
 
@@ -126,7 +126,7 @@ For a quick, free deployment:
         Go to Settings > Pages in your repo.
 
         Select your main branch and save.
-        Your site will be at https://<LeeMarshall1113>.github.io/<REPO_NAME>/.
+        Your site will be at https://<LeeMarshall1113>.github.io/SEO_Optimization/.
 
     Netlify:
 
