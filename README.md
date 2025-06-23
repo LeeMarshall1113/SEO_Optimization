@@ -1,6 +1,6 @@
 SEO_Optimization
 
-A minimal multi-page static website showcasing basic SEO best practices. This project demonstrates:
+A minimal multi-page website mockup of a SEO service as a demo of SEO practices This project demonstrates:
 
     On-page SEO (titles, meta descriptions, headings, internal links)
 
