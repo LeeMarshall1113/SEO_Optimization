@@ -1,6 +1,6 @@
 SEO_Optimization
 
-![Screenshot of Web Page](SEO_IMG.PNG)
+![Screenshot of Web Page](SEO_IMG.png)
 
 A minimal multi-page website mockup of a SEO service as a demo of SEO practices This project demonstrates:
 
